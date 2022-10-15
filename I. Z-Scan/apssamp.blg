@@ -29,251 +29,46 @@ Control: production of article title (0) allowed
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-Warning--empty year in siegman_how_1998
-"J. High Energy Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"J. High Energ. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"JHEP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"JCAP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Instrumentation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"J. Instrum." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"JINST" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"J. of Stat. Mech." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-"JSTAT" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry yuksek_switching_2009
-while executing---line 3515 of file apsrev4-2.bst
-Warning--missing journal in yuksek_switching_2009
-Warning--empty year in yuksek_switching_2009
-"J. High Energy Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"J. High Energ. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"JHEP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"JCAP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Instrumentation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"J. Instrum." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"JINST" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"J. of Stat. Mech." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-"JSTAT" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry rangel-rojo_spectrally_1998
-while executing---line 3515 of file apsrev4-2.bst
-Warning--missing journal in rangel-rojo_spectrally_1998
-Warning--empty year in rangel-rojo_spectrally_1998
-"J. High Energy Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. High Energ. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JHEP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JCAP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Instrumentation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. Instrum." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JINST" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. of Stat. Mech." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JSTAT" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry nguyen_numerical_2014
-while executing---line 3515 of file apsrev4-2.bst
-Warning--missing journal in nguyen_numerical_2014
-Warning--empty year in nguyen_numerical_2014
-"J. High Energy Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. High Energ. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JHEP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JCAP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Instrumentation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. Instrum." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JINST" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. of Stat. Mech." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-"JSTAT" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry ortega_analytical_2014
-while executing---line 3515 of file apsrev4-2.bst
-Warning--missing journal in ortega_analytical_2014
-Warning--empty year in ortega_analytical_2014
-"J. High Energy Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"J. High Energ. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"JHEP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"JCAP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Instrumentation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"J. Instrum." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"JINST" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"J. of Stat. Mech." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-"JSTAT" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry sheik-bahae_sensitive_1990
-while executing---line 3515 of file apsrev4-2.bst
-Warning--missing journal in sheik-bahae_sensitive_1990
-Warning--empty year in sheik-bahae_sensitive_1990
-You've used 8 entries,
+Warning--empty year in noauthor_beam_nodate
+You've used 11 entries,
             6079 wiz_defined-function locations,
-            1685 strings with 16837 characters,
-and the built_in function-call counts, 8080 in all, are:
-= -- 435
-> -- 233
-< -- 75
-+ -- 76
-- -- 74
-* -- 1263
-:= -- 708
-add.period$ -- 6
-call.type$ -- 8
-change.case$ -- 31
-chr.to.int$ -- 18
-cite$ -- 19
-duplicate$ -- 792
-empty$ -- 535
-format.name$ -- 124
-if$ -- 1567
+            1715 strings with 17659 characters,
+and the built_in function-call counts, 11039 in all, are:
+= -- 702
+> -- 291
+< -- 86
++ -- 94
+- -- 86
+* -- 1719
+:= -- 1000
+add.period$ -- 9
+call.type$ -- 11
+change.case$ -- 46
+chr.to.int$ -- 21
+cite$ -- 14
+duplicate$ -- 1061
+empty$ -- 750
+format.name$ -- 152
+if$ -- 2186
 int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 132
-newline$ -- 70
-num.names$ -- 18
-pop$ -- 348
+int.to.str$ -- 18
+missing$ -- 168
+newline$ -- 79
+num.names$ -- 24
+pop$ -- 419
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 44
 quote$ -- 0
-skip$ -- 314
+skip$ -- 450
 stack$ -- 0
-substring$ -- 168
-swap$ -- 745
-text.length$ -- 28
+substring$ -- 240
+swap$ -- 1013
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 105
-warning$ -- 12
-while$ -- 29
+type$ -- 144
+warning$ -- 2
+while$ -- 35
 width$ -- 0
-write$ -- 96
-(There were 65 error messages)
+write$ -- 129
+(There were 2 warnings)

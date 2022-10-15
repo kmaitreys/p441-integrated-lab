@@ -40,6 +40,10 @@
 %floatfix,
 ]{revtex4-2}
 \usepackage{lipsum}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\sisetup{separate-uncertainty=true}
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
@@ -150,8 +154,10 @@
 	\end{enumerate}
 
 
-\section{Theory}
 	
+	
+
+\section{Theory}
 	When an electric field is applied across an electric insulator, polarization occurs within the insulator or the dielectric. This polarization density $ P $ is related to the applied electric field $ E $ as
 	\begin{equation}
 		\mathbf{P} = \varepsilon_0 \chi_e \mathbf{E}
@@ -173,11 +179,11 @@
 		\end{equation}
 		with $ \mathbf{E_{\omega}} $ being the amplitude of the wave. Combining this with the equation for the polarization, and taking only linear terms and those in $ \chi^{(3)} |\mathbf{E_{\omega}}|^3$, we get
 		\begin{equation}\label{key}
-			\mathbf{P} = \varepsilon_0 \Big( \chi^{(1)} + \dfrac{3}{4}\chi^{(3)} |\mathbf{E_{\omega}}|^3 \Big) \mathbf{E_{\omega}} \cos (\omega t)
+			\mathbf{P} = \varepsilon_0 \Big( \chi^{(1)} + \dfrac{3}{4}\chi^{(3)} |\mathbf{E_{\omega}}|^2 \Big) \mathbf{E_{\omega}} \cos (\omega t)
 		\end{equation}
 		This looks like a linear susceptibility with an additional non-linear term:
 		\begin{equation}\label{key}
-			\chi = \chi_{\mathrm{LIN}} + \chi_{\mathrm{NL}} = \chi^{(1)} + \dfrac{3}{4}\chi^{(3)} |\mathbf{E_{\omega}}|^3,
+			\chi = \chi_{\mathrm{LIN}} + \chi_{\mathrm{NL}} = \chi^{(1)} + \dfrac{3}{4}\chi^{(3)} |\mathbf{E_{\omega}}|^2,
 		\end{equation}
 		and since the refractive index in terms of electric susceptibility is given by $ n = (1 + \chi)^{1/2}$, we have
 		\begin{equation}\label{key}
@@ -195,88 +201,466 @@
 			\end{split}
 		\end{equation}
 		where $ n_2  = \frac{3 \chi^{(3)}}{4 \varepsilon_0 n_0^2 c}$  is the nonlinear component of the refractive index. This is known as the \textit{optical Kerr effect}.
-	\section{The Self-focusing and self-defocusing phenomena}
+	\subsection{The self-focusing and self-defocusing phenomena}
 		The self focusing (or defocusing) of light beam is due to the
-		dependence of the refractive index on the intensity of the beam. From equation \eqref{eq:8}, we
+		dependence of the refractive index on the intensity of the beam. It is a non-linear optical processes induced by the
+		change in refractive index of materials exposed to intense electromagnetic
+		radiation. A medium whose refractive index increases with the electric field
+		intensity acts as a focusing lens (Figure \ref{fig:focdefoc}a) for a Gaussian beam, while if it decreases with electric field intensity acts as defocusing lens (Figure \ref{fig:focdefoc}b).
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.7]{focdefoc}
+			\caption{Self-focusing and defoucsing phenomena}
+			\label{fig:focdefoc}
+		\end{figure}
+
+
+	\subsection{The Z-scan technique}
+		Using a single Gaussian laser beam in a tight focus geometry, as depicted in Figure \ref{fig:schematic}, we measure the transmittance of a non-linear medium through a finite aperture in the fur field as a function of the sample position $ z $ measured with respect to the focal plane. Assume, for instance, a material with a negative nonlinear refractive index and a thickness smaller than the diffraction length of the focused beam (a thin medium). This can be regarded as a thin lens of variable focal length. Starting the scan from a distance far away from the focus (negative $ z $), the beam irradiance is low and negligible nonlinear refraction occurs; hence, the transmittance ($ D_2/D_1 $ in Figure \ref{fig:schematic}) remains relatively constant. As the sample is brought closer to focus, the beam irradiance increases, leading to self-focusing in the sample. A negative self-focusing prior to focus will tend to collimate the beam, causing a beam narrowing at the aperture which results in an increase in the measured transmittance. As the scan in $ z $ continues and the sample passes the focal plane to the right (positive $ z $), the same self-defocusing increases the beam divergence, leading to beam broadening at the aperture, and thus a decrease in transmittance. This suggests that there is a null as the sample crosses the focal plane. This is analogous to placing a thin lens at or near the focus, resulting in a minimal change of the far-field pattern of the beam. The Z-scan is completed as the sample is moved away from focus (positive $ z $) such that the transmittance becomes linear since the irradiance is again low.
+		\begin{figure*}
+			\includegraphics[scale = 1]{schematic}
+			\caption{Schematic of the Z-scan setup}
+			\label{fig:schematic}
+		\end{figure*}
+		\par 
+		A prefocal transmittance maximum (peak) followed by a postfocal transmittance minimum (valley) is, therefore, the Z-scan signature of a negative refractive nonlinearity. Positive nonlinear refraction, following the same analogy, gives rise to an opposite valley-peak configuration.
+		\par 
+		When a high intensity laser beam propagates through a material, induced
+		refractive index changes leads to self-focusing or defocusing of the laser beam
+		which enables us to determine the third-order nonlinear optical properties of
+		various materials. In this technique, the sample is translated along $ z $-direction through the beam waist of a focused beam by keeping the input power
+		of beam constant. In our experiments a continuous pulse wave laser operating at 532 nm was used. The laser beam was focused using a $ \SI{10}{\centi \meter} $ focal length lens. Let us consider a material with positive non-linear refractive
+		index, $ n_2 > 0 $. As shown in Fig. 1a), on the side of focus where the beam is
+		converging, the non-linear lens shortens the beam's waist position to a negative $ z $ value. As the beam passes through the shifted focus, it diverges at
+		a greater diffraction angle, so the beam's power is spread over a wider area
+		and the intensity of beam passing through the pinhole decreases. When the
+		sample is on the positive $ z $ side, where the beam is diverging, the non-linear
+		lens reduces the beam's angle of divergence, thereby increasing the power
+		passing through the pinhole. The effects are exactly opposite for $ n_2 < 0 $.
+		\par 
+		If the material has a positive non linearity ($ n_2 > 0 $), the transmittance
+		graph has a valley first and then a peak. For the sample with $ n_2 < 0 $ the
+		graph is exactly the opposite (first peak and then valley).
+		\par 
+		The aperture plays an important role in determining which values we are
+		going to find. We use closed aperture for finding out the non-linear refractive
+		index and open aperture to find the absorption coefficient.
+		\begin{figure}
+			\includegraphics[scale = 0.7]{nlr}
+			\caption{}
+		\end{figure}
+		\begin{figure}
+			\includegraphics[scale = 0.7]{nla}
+			\caption{}
+		\end{figure}
+		\begin{figure}
+			\includegraphics[scale = 0.8]{n2lg}
+			\caption{}
+		\end{figure}
+	
+	
+	\subsection{Variation of optical properties with distance in non-linear media}\label{sec:der}
+		Consider a $ \mathrm{TEM}_{00} $ Gaussian beam of beam waist radius $ w_0 $ travelling in the positive $ z $-direction, then the electric field $ E $ can be written as
+		\begin{equation}\label{key}
+			\begin{split}
+				E (r, z, t) =& E_0 (t) \dfrac{w_0}{w(z)} \\
+				& \cdot \exp \Bigg( -\dfrac{r^2}{w^2(z)} - \dfrac{ikr^2}{2 R(z)} \Bigg) e^{-i \phi (z, t)}
+			\end{split}
+		\end{equation}
+		where $ w^2 (z) = w^2_0 (1 + z^2/z^2_0) $ is the beam radius, $ R(z) = z(1+z_0^2/z^2)$ is the radius of curvature of the wavefront at $ z $, $ z_0 = kw^2_0/2$ is the diffraction length of the beam, $ k = 2\pi/ \lambda $ is the wave vector, and $ \lambda $ is the laser wavelength, all in free space. $ E_0(t) $ denotes the radiation electric field at the focus and contains the temporal envelope of the laser pulse. The $ e^{-i \phi (z, t)} $ term contains all the radially uniform phase variations. As we are only concerned with calculating the radial phase variations $ \Delta \phi (r) $, the slowly varying envelope approximation (SVEA) applies, and all other phase changes that are uniform in $ r $ are ignored.
+		\par 
+		This beam is transmitted through a Kerr non-linear optical material of length $ L $, with a refractive index and absorption coefficient given by
+		\begin{equation}\label{key}
+			n(I) = n_0 + n_2 I.
+		\end{equation}
+		\begin{equation}\label{key}
+			\alpha(I) = \alpha_0 + \beta I
+		\end{equation}
+		respectively, where: $ n_0 $ is the linear refractive index, $ n_2 $ is the non-linear refractive index, $ \alpha_0 $ is the absorption coefficient, $ \beta $ is the non-linear absorption coefficient and $ I $ is the intensity of light. The output field for a thin local media can then be written as
+		\begin{equation}\label{eq:12}
+			E_{out} = E(r, z)  e^{-\alpha_0 L/2} (1+q)^{(ikn_2/\beta - 1/2)}
+		\end{equation}
+		where $ q = \beta I L_{\mathrm{eff}} $ with $ L_{\mathrm{eff}} = (1-e^{-\alpha_0L})/\alpha_0 $. We also note that the on-axis intensity at beam waist is given by $ I_0 = |E_0|^2 $.For very thin samples, such as in this
+		experiment, we can take $ L_{\mathrm{eff}} \approx 1 $ (in proper units). Moreover, $ I_{0} $ can be
+		written as (see Appendix \ref{pulsed}):
+		\begin{equation}\label{key}
+			I_0 = \dfrac{\langle P \rangle}{f_{\mathrm{rep}} \tau \pi w_0^2}
+		\end{equation}
+		where $ \langle P \rangle $ is the average power of the beam, $ f_{\mathrm{rep}} $ is the repetition rate, $ \tau $ is the laser pulse width and $ \pi w_0^2 $ is the beam area at the focus.
+		\par 
+		Further, the irradiance distribution and phase shift of the beam at the exit surface of the sample must fulfill:
+		\begin{equation}\label{key}
+			I_{\mathrm{out}} (r,z) = \dfrac{I(r,z) e^{-\alpha_0L}}{1+q(r,z)}
+		\end{equation}
+		and
+		\begin{equation}\label{eq:15}
+			\Delta \phi = \dfrac{kn_2}{\beta} \ln (1+q(r,z))
+		\end{equation}
+		The intensity $ I $ can be expressed, at position $ z $, as the product of the maximum on axis value $ I_{0} $ and a Gaussian local profile ($ G_{\mathrm{loc}} $):
+		\begin{equation}\label{key}
+			I(r,z) = I_0 G_{\mathrm{loc}}
+		\end{equation}
+		with
+		\begin{equation}\label{key}
+			G_{\mathrm{loc}} = \dfrac{\exp(-2r^2/w^2(z))}{1+(z/z_0)^2}
+		\end{equation}
+		The field after a non-local sample that presents solely nonlinear refraction, the photoinduced non-linear phase change $ \Delta \phi_m $ can be written as:
+		\begin{equation}\label{eq:18}
+			\Delta \phi (r) = \Delta \Phi_0 G_{\mathrm{loc}}
+		\end{equation}
+		while for samples exhibiting solely non-linear absorption, $ q $ takes the following form:
+		\begin{equation}\label{eq:19}
+			q(r) = \Delta \Psi_0 G_{\mathrm{loc}}
+		\end{equation}
+		\par 
+		From \eqref{eq:15}, it is evident that $ \Delta \Phi_0 $ and $ \Delta \Psi_0 $ are merely the results of the respective first order
+		expansions of the expressions for $ \Delta \phi $  and $ q $, in the cases of pure
+		non-linear refraction and pure non-linear absorption respectively. This gives us:
+		\begin{equation}\label{key}
+			 \Delta \Phi_0 = kn_2 I_0 L_{\mathrm{eff}}
+		\end{equation}
+		and
+		\begin{equation}\label{key}
+			\Delta \Psi_0 = 2^{-3/2} \beta I_0 L_{\mathrm{eff}}
+		\end{equation}
+		Substituting these quantities from \eqref{eq:18} and \eqref{eq:19} into \eqref{eq:12}, we
+		obtain a final expression for the outgoing field:
+		\begin{equation}\label{key}
+			\begin{split}
+				E_{\mathrm{out}} &= E(r,z) \exp (-\alpha_0 L/2) \\
+				& \times [ 1+ \Delta \Psi_0 G_{\mathrm{loc}} ]^{-i(\Delta \Phi_0/\Delta \Psi_0)-1/2}
+			\end{split}
+		\end{equation}
+		\par 
+		Now, making use of SVEA and the Gaussian decomposition method for
+		local field changes and considering only the first two terms in the decomposition, we can obtain an analytical expression for the complex, on-axis far-field as:
+		\begin{equation}\label{eq:23}
+			\begin{split}
+				E_{\mathrm{out}} &= E(r,z) \exp (-\alpha_0 L/2) \\
+				& \times \sum_{n=0}^{\infty} \Bigg[ \dfrac{(-i \Delta \phi_0(z))^n}{n!} \times \prod_{n'=0}^{n}\Bigg( 1 - i(2n'-1)\dfrac{\Delta \Psi_0}{\Delta \Phi_0} \Bigg) \Bigg] \\
+				& \times \exp \Bigg( \dfrac{-2nr^2}{w^2(z)} \Bigg)
+			\end{split}
+		\end{equation}
+		Using \eqref{eq:23} we can write the complex field at the aperture planes as
+		follows:
+		\begin{equation}\label{eq:24}
+			\begin{split}
+				E_{a} &= E(r,z) \sum_{n=0}^{\infty} \dfrac{(-i \Delta \phi_0(z))^n}{n!} \\
+				& \times \prod_{n'=0}^{n}\Bigg( 1 - i(2n'-1)\dfrac{\Delta \Psi_0}{\Delta \Phi_0} \Bigg) \dfrac{w_{n0}}{w_n} \\
+				& \times \exp \Bigg( \dfrac{-r^2}{w_n^2} - \dfrac{ikr^2}{2R_n} + i \theta_n \Bigg)
+			\end{split}
+		\end{equation}
+		Here $ \Delta \phi_0 = \Delta \Phi_0 /(1+(z/z_0)^2) $. When only non-linear refraction is considered, $ \Delta \Psi_0 \rightarrow 0 $, and we can reduce \eqref{eq:24} to obtain:
+		\begin{equation}\label{eq:25}
+			\begin{split}
+				E_{a} &= E(r,z) \sum_{n=0}^{\infty} \dfrac{(-i \Delta \phi_0(z))^n}{n!} \\
+				& \times \dfrac{w_{n0}}{w_n} \exp \Bigg( \dfrac{-r^2}{w_n^2} - \dfrac{ikr^2}{2R_n} + i \theta_n \Bigg)
+			\end{split}
+		\end{equation}
+		\par 
+		Taking $ d $ to be the propagation distance in free space, between the sample
+		and the aperture, and $ g = 1 + d/R(z) $, we can represent the parameters in
+		\eqref{eq:24} and \eqref{eq:25} as follows:
+		\begin{center}
+			$ w_{n0}^2 = \dfrac{w^2(z)}{2n+1}$, \\
+
+			$ d_n = \dfrac{kw_{n0}^2}{2} $, \\
+
+			$ w_n^2 = w^2_{n0} \Bigg( g^2 \dfrac{d^2}{d_n^2} \Bigg)$, \\
+
+			$ R_n^2 = d \Bigg(1-\dfrac{g}{g^2 + (d/d_n)^2}\Bigg)^{-1} $
+		\end{center}
+		and,
+		\begin{center}
+			$ \theta_n = \tan^{-1} \Big(\dfrac{d}{gd_n}\Big) $
+		\end{center}
+		\par 
+		The total transmitted power through the aperture can then be obtained
+		by spatially integrating $ E_a(r, t) $:
+		\begin{equation}\label{key}
+			P_T (\Delta \Phi_0 (t)) = \int_{0}^{r_a} |E_a(r,t)|^2 r dr
+		\end{equation}
+		This directly yields the normalized Z-scan transmittance, $ T(z) $, using the
+		following expression:
+		\begin{equation}\label{key}
+			T(z) = \dfrac{\int_{-\infty}^{\infty} P_T (\Delta \Phi_0 (t)) dt}{S \int_{-\infty}^{\infty} P_i (t) dt}
+		\end{equation}
+		where $ P_i(t) = \pi w_0^2 I_0 (t)/2 $ is the instantaneous input power, within the sample, and $ S = 1 - \exp(-2r_a^2/w_a^2) $, where subscript $ a $ denotes `aperture'.
+		This is where the aperture-dependence of the Z-Scan traces comes in. For
+		closed aperture traces, we can take $ S \approx 0 $ and for open aperture traces,
+		$ S \approx 1 $. Now, the normalized transmittance for the on-axis electric field, at
+		the aperture plane, can be written as:
+		\begin{equation}\label{eq:28}
+			T_2 (z, \Delta \phi_0) = \dfrac{\Big|E(r=0,z,\Delta \phi_0)\Big|^2}{\Big|E(r=0,z,\Delta \phi_0=0)\Big|^2}
+		\end{equation}
+		On substituting the expression for the field into \eqref{eq:28} and simplifying, we
+		obtain the final expression for $ T(z) $,
+		that considers the effect of both non-linear refraction and non-linear absorption, as given below:
+		\begin{equation}\label{eq:29}
+			T_2(z, \Delta \Phi_0, \Delta \Psi_0) = 1 + \dfrac{4 \Delta \Phi_0 z}{(z^2+9)(z^2+1)} - \dfrac{\Delta \Psi_0}{z^2+1}
+		\end{equation}
+		\par 
+		Equation \eqref{eq:29} provides a two-parameter fitting function for any third-order Z-
+		scan trace, the two parameters being $ \Delta \Phi_0 $ and $ \Delta \Psi_0 $, and we have used it
+		to fit the closed aperture traces, in order to obtain the $ n_2 $ values in this
+		experiment. On the other hand, for $ \beta $ values, we take the open aperture
+		traces, that deemphasize $ \Delta \Phi_0 $ or small intensity variations, as the entire
+		signal is being measured.
+		So, we can provide a simpler, one-parameter
+		expression for $ T(z) $ in this case:
+		\begin{equation}\label{eq:30}
+			T_2(z, \Delta \Phi_0=0, \Delta \Psi_0) = 1 - \dfrac{\Delta \Psi_0}{z^2+1}
+		\end{equation}
+		\par 
+		Equations \eqref{eq:29} and \eqref{eq:30} are the working formulae for this experiment. Figure 4
+		shows variations in transmittance in Z-scan traces for materials exhibiting
+		pure non-linear refraction, pure non-linear absorption and both (mixed case), using various
+		values for $ \Delta \Phi_0 $ and $ \Delta \Psi_0 $. It is clear from the plots that non-linear absorption suppresses
+		peaks in the mixed Z-Scan traces, as compared to the pure non-linear refraction case. This
+		also means that the symmetric nature of pure non-linear refraction curves is usually absent
+		in most Z-Scan traces, where both non-linear refraction and non-linear absorption contribute. As such, we
+		can utilize another interesting quantity, that is the Peak-Valley Transmittance Change, $ \Delta T_{p-v} $. It is expressed as follows in the closed aperture case
+		(where we shall be using the two-parameter fitting function in \eqref{eq:29}):
+		\begin{equation}\label{key}
+			\Delta T_{p-v} = 0.406 \Delta \Phi_0
+		\end{equation}
+		This relation for $ \Delta T_{p-v} $ should hold even for highly skewed Z-Scan traces.
+		Therefore, it provides us with an excellent tool to verify the quality of our
+		traces.
 		
-
-
-
-		\subsubsection{Wide text (A level-3 head)}
-			\lipsum[12-15]
-
-
-	\subsection{\label{sec:citeref}Citations and References}
-		\lipsum[12-15]
-
-
-		\subsubsection{Citations}
-			\lipsum[12-15]
-
-
-
-
-		\subsubsection{Example citations}
-			\lipsum[12-15]
-
-
-		\subsubsection{References}
-			\lipsum[12-15]
-
-
-		\subsubsection{Example references}
-			\lipsum[12-15]
-
-
-	\subsection{Footnotes}%
-		\lipsum[12-15]
-
-
-
-
-
-
-
-		\subsubsection{Wide equations}
-			\lipsum[12-15]
-
-
-
-
-
-
-	\subsection{\label{app:subsec}A subsection in an appendix}
-		\lipsum[12-15]
-
-\section{Experimental Set-up}
-	\lipsum[16-18]
-
-\section{Experiments}
-	\lipsum[19]
-	\subsection{Ritwick}
-		\lipsum[20]
-		\subsubsection{Observations and Results}
-			\lipsum[21-25]
-	\subsection{SCS}
-		\lipsum[20]
-		\subsubsection{Observations and Results}
-			\lipsum[21-25]
-	\subsection{Nanoelectronics Lab}
-		\lipsum[20]
-		\subsubsection{Observations and Results}
-			\lipsum[21-25]
+		
+		
+		
+\section{The Experiments}
+	In this section, we will describe the experimental set-up, how various apparatus are arranged after alignment of the laser, explain the basic scientific principle of the technique and methodology of how they were performed.
+	\subsection{Experimental set-up}
+	The various apparatus and their working in Figure \ref{fig:schematic} is explained in this section.
+	\begin{enumerate}
+		\item \textbf{Laser Source}: We
+		use
+		the
+		pulsed $ \SI{532}{\nano \meter} $ laser.
+		\item We used the two reflecting mirrors for aligning the beam by
+		parallel
+		(Z-fold) (Figure \ref{fig:zfold})
+		configuration.
+		\begin{figure}
+			\includegraphics{zfold}
+			\caption{Z-fold configuration of  reflecting mirrors}
+			\label{fig:zfold}
+		\end{figure}
+		\item \textbf{Wave plate}:
+		Optical device
+		which alter the polarization
+		state of light wave traveling
+		through it. There are two types
+		of wave plate, first half wave
+		plate which shift the polarization direction of linearly polarized light, second is quarter
+		wave plate which converts linearly polarized light into circularly polarized light. Here, we have used a half-wave plate.
+		\item \textbf{Beam Splitter}:
+		Optical components used to split incident light at a designated ratio into
+		two separate beams.
+		There
+		will be semi reflective coating
+		on one of the prism.
+		Ratio of reflection/transmission
+		depends on coating material.
+		There are two type of beam-splitter, first is polarizing beam
+		splitter(divides incident unpolarized light into orthogonal
+		polarized beams) and second
+		is non-polarized beam splitter (split by specific percentage
+		that is independent of polarization).
+		\item\textbf{ Thermal detectors}: It is based
+		on temperature change of the element through the absorption of EM radiation. Change
+		in temperature causes change
+		in
+		temperature
+		dependent
+		property (resistance) of thermal detector, which is evaluated electrically and is measure
+		of the absorbed energy.
+		\item A converging Lens ($ L_0 $), with
+		$ f = \SI{10}{\centi \metre} $, to focus the LASER
+		light.
+		\item A translation stage
+		\item A beam profiler to measure the
+		beam waist.
+		\item An optical table to assemble
+		the setup.
+		\item Allen keys and bolts to hold
+		the equipment in place.
+		\item Multiple screens to avoid interference from other setups.
+	\end{enumerate}
+	We are using a combination of wave plate and beam-
+	splitter to control the intensity of laser beam.
+	Through
+	half-waveplate we will bring a
+	polarisation in the light and
+	our beam splitter will split
+	the beam intensity (will reflect
+	some and pass some) as per polarisation.
+	\subsection{Observations}
+	The specifications of the laser and some other quantities that were kept fixed are given below:
+	\begin{enumerate}
+		\item Effective length of the sample, $ L_{\mathrm{eff}} = \SI{1}{\milli \meter} $,
+		\item Repetition rate of the laser, $ f_{\mathrm{rep}} = \SI{6}{\kilo \hertz}$,
+		\item Pulse width at a given repetition rate, $ \tau = \SI{500}{\pico \second} $,
+		\item Beam waist width of the laser beam, $ w_0 = \SI{20}{\micro \meter} $
+	\end{enumerate}
+	\par 
+	In the following sections, the variation of transmittance with distance from the focus is plotted from the electronically recorded data. Using the relevant equations derived in Section \ref{sec:der}, we have calculated the second order non-linear refractive index or the non-linear absorption coefficient (whichever is applicable). The error analysis is performed using Python libraries. The code for the same is publicly available at my \href{https://github.com/peakcipher/coursework/tree/master/22O1}{GitHub}.
+	
+	
+	\subsection{With Toluene solution}
+		\subsubsection{Closed Aperture}
+			After fitting the recorded data according to \eqref{eq:29} the following observations were made:
+			\begin{enumerate} 
+				\item Average power, $ \langle P \rangle  = \SI{60}{\milli \watt}$
+				\item Second order non-linear refractive index, $ n_2 = \SI[separate-uncertainty=true]{-3.3 \pm 0.7e-18}{\meter \squared \per \watt} $.
+			\end{enumerate}
+			\begin{figure}
+				\includegraphics[scale = 0.59]{tol-c}
+				\caption{Variation of transmittance with distance for toluene solution (closed aperture)}
+			\end{figure}
+		
+		\subsubsection{Open Aperture}
+		After fitting the recorded data according to \eqref{eq:30} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{60}{\milli \watt}$
+			\item Non-linear absorption coefficient, $ \beta = \SI[separate-uncertainty=true]{6.0 \pm 1.3e-18}{\meter \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{tol-o}
+			\caption{Variation of transmittance with distance for toluene solution (open aperture)}
+		\end{figure}
+		
+		
+		
+		
+		
+		
+	\subsection{With methyl ammonium lead iodide thin film}
+		\subsubsection{Closed Aperture}
+		After fitting the recorded data according to \eqref{eq:29} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{180}{\milli \watt}$
+			\item Second order non-linear refractive index, $ n_2 = \SI[separate-uncertainty=true]{-1.05 \pm 0.23e-18}{\meter \squared \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{satys-c}
+			\caption{Variation of transmittance with distance for methyl ammonium lead iodide thin film (closed aperture)}
+		\end{figure}
+		
+		\subsubsection{Open Aperture}
+		After fitting the recorded data according to \eqref{eq:30} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{80}{\milli \watt}$
+			\item Non-linear absorption coefficient, $ \beta = \SI[separate-uncertainty=true]{-3.4 \pm 0.7e-18}{\meter \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{satys-o}
+			\caption{Variation of transmittance with distance for methyl ammonium lead iodide thin film (open aperture)}
+		\end{figure}
+	
+	\subsection{With methyl ammonium lead iodide solution}
+		\subsubsection{Closed Aperture}
+		After fitting the recorded data according to \eqref{eq:29} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{150}{\milli \watt}$
+			\item Second order non-linear refractive index, $ n_2 = \SI[separate-uncertainty=true]{-3.9 \pm 0.9e-18}{\meter \squared \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{satyl-c}
+			\caption{Variation of transmittance with distance for methyl ammonium lead iodide solution (closed aperture)}
+		\end{figure}
+		
+		\subsubsection{Open Aperture}
+		After fitting the recorded data according to \eqref{eq:30} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{100}{\milli \watt}$
+			\item Non-linear absorption coefficient, $ \beta = \SI[separate-uncertainty=true]{-3.2 \pm 0.7e-19}{\meter \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{satyl-o}
+			\caption{Variation of transmittance with distance for methyl ammonium lead iodide solution (open aperture)}
+		\end{figure}
+	
+	\subsection{With an organic sample thin film}
+		A solution of organics compound Bis(salicylidene)-1,2-cyclohexanediamine (Figure \ref{fig:org-s}) was also used to perform the Z-scan experiment. Using the spin-coating deposition technique a thin-film of the sample was deposited on a substrate.
+		\begin{figure}\label{fig:org-s}
+			\includegraphics[scale = 0.3]{org-s}
+			\caption{Bis(salicylidene)-1,2-cyclohexanediamine}
+		\end{figure}
+		\subsubsection{Closed Aperture}
+		After fitting the recorded data according to \eqref{eq:29} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{180}{\milli \watt}$
+			\item Second order non-linear refractive index, $ n_2 = \SI[separate-uncertainty=true]{-8.1 \pm 1.8e-18}{\meter \squared \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{org-c}
+			\caption{Variation of transmittance with distance for Bis(salicylidene)-1,2-cyclohexanediamine thin film (closed aperture)}
+		\end{figure}
+		
+		\subsubsection{Open Aperture}
+		After fitting the recorded data according to \eqref{eq:30} the following observations were made:
+		\begin{enumerate} 
+			\item Average power, $ \langle P \rangle  = \SI{25}{\milli \watt}$
+			\item Non-linear absorption coefficient, $ \beta = \SI[separate-uncertainty=true]{8.5 \pm 1.9e-19}{\meter \per \watt} $.
+		\end{enumerate}
+		\begin{figure}
+			\includegraphics[scale = 0.59]{org-o}
+			\caption{Variation of transmittance with distance for Bis(salicylidene)-1,2-cyclohexanediamine thin film (open aperture)}
+		\end{figure}
 		
 \section{Discussions}
-	\lipsum[26-30]
+	\begin{enumerate}
+		\item While taking observations, we noticed that there were
+		some places near the focus where we found some sudden fluctuations in transmittance. To remove the dip, we
+		tried reducing the power. The magnitude of the fluctuations was somewhat minimized but they could not be removed completely. 
+		\item During data analysis, we employed Python's SciPy package and used its subroutine to remove the fluctuations (based on the Savitzky–Golay filter) for a better fit to the our theoretical model. 
+		\item In the case of the organic sample in thin film form, there were multiple dips after the focus resulting in sub-par data. In case of solution of the same sample, the data obtained was not presentable due
+		to too much dominance of the multiple interference
+		fluctuations. 
+		\item This may be due to high absorption coefficient
+		for the sample so that the refractive index changes
+		very rapidly due to significant thermal variation along
+		the length of the sample.
+	\end{enumerate}
+	
+	
 \section{Conclusions}
-	\lipsum[31-33]
+	\begin{enumerate}
+		\item We can use Z-scan experimental configuration to obtain nonlinear refractive
+		index and nonlinear absorption coefficients of any standard samples. 
+		\item The
+		sign and magnitude of nonlinear refractive index of the samples can measured. 
+		\item Using the equations of normalized transmittance and fitting
+		them with the data points and will report the refractive index and nonlinear
+		absorption coefficients.
+		\item The property of non-linear sample to change refractive index on changing intensity can be used to make a optical transistor
+		type of thing.
+	\end{enumerate}
 
 
 \appendix
-\section{Title}
-	\lipsum[34-36]
-\section{Title 2}
-	\lipsum[37-38]
+\section{Pulsed lasers}\label{pulsed}
+	In this laser, we used a pulsed laser which refers to any laser not classified as continuous wave, so that the optical power appears in pulses of some duration at some repetition rate.
+	\par 
+	Since the pulse energy is equal to the average power divided by the repetition rate, this goal can sometimes be satisfied by lowering the rate of pulses so that more energy can be built up in between pulses. In laser ablation for example, a small volume of material at the surface of a work piece can be evaporated if it is heated in a very short time, whereas supplying the energy gradually would allow for the heat to be absorbed into the bulk of the piece, never attaining a sufficiently high temperature at a particular point.
+	\subsection{Q-switching}
+		In a Q-switched laser, the population inversion is allowed to build up by introducing loss inside the resonator which exceeds the gain of the medium; this can also be described as a reduction of the quality factor or 'Q' of the cavity. Then, after the pump energy stored in the laser medium has approached the maximum possible level, the introduced loss mechanism (often an electro- or acousto-optical element) is rapidly removed (or that occurs by itself in a passive device), allowing lasing to begin which rapidly obtains the stored energy in the gain medium. This results in a short pulse incorporating that energy, and thus a high peak power.
+	\begin{figure}
+		\includegraphics[scale = 0.41]{pulsedlaser}
+		\caption{Terminology related to a pulsed laser}
+	\end{figure}
+\section{Spin-coating}
+	A thin film is a layer of material ranging from fractions of a nanometer (monolayer) to several micrometers in thickness. The controlled synthesis of materials as thin films (a process referred to as deposition) is a fundamental step in many applications.
+	\par 
+	The act of applying a thin film to a surface is thin-film deposition – any technique for depositing a thin film of material onto a substrate or onto previously deposited layers. We employed the use of a deposition technique called \textit{spin coating}.
+	\par 
+	Spin coating is a procedure used to deposit uniform thin films onto flat substrates. Usually a small amount of coating material is applied on the center of the substrate, which is either spinning at low speed or not spinning at all. The substrate is then rotated at speed up to 10,000 rpm to spread the coating material by centrifugal force. A machine used for spin coating is called a spin coater, or simply spinner. Spin coating is widely used in microfabrication of functional oxide layers on glass or single crystal substrates using sol-gel precursors, where it can be used to create uniform thin films with nanoscale thicknesses.
+	\par 
+	The methyl ammonium lead iodide thin film was prepared this way in the Nanoelectronics lab.
 % The \nocite command causes all entries in a bibliography to be printed out
 % whether or not they are actually referenced in the text. This is appropriate
 % for the sample file to show the different styles of references, but authors

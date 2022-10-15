@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{6}%
+\begin{thebibliography}{9}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,27 +50,31 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Siegman}()}]{siegman_how_1998}%
+\bibitem [{\citenamefont {Siegman}(1998)}]{siegman_how_1998}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
-  {Siegman}},\ }\bibfield  {title} {\bibinfo {title} {How to (maybe) measure
-  laser beam quality},\ }in\ \href {https://doi.org/10.1364/DLAI.1998.MQ1}
-  {\emph {\bibinfo {booktitle} {{DPSS} (Diode Pumped Solid State) Lasers:
-  Applications and Issues (1998), paper {MQ}1}}}\ (\bibinfo  {publisher}
-  {Optica Publishing Group})\ p.\ \bibinfo {pages} {MQ1}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yüksek}\ \emph {et~al.}()\citenamefont {Yüksek},
-  \citenamefont {Elmali}, \citenamefont {Karabulut},\ and\ \citenamefont
-  {Mamedov}}]{yuksek_switching_2009}%
+  {Siegman}},\ }\bibfield  {title} {{\selectlanguage {EN}\bibinfo {title} {How
+  to ({Maybe}) {Measure} {Laser} {Beam} {Quality}}},\ }in\ \href
+  {https://doi.org/10.1364/DLAI.1998.MQ1} {{\selectlanguage {EN}\emph {\bibinfo
+  {booktitle} {{DPSS} ({Diode} {Pumped} {Solid} {State}) {Lasers}:
+  {Applications} and {Issues} (1998), paper {MQ1}}}}}\ (\bibinfo  {publisher}
+  {Optica Publishing Group},\ \bibinfo {year} {1998})\ p.\ \bibinfo {pages}
+  {MQ1}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yüksek}\ \emph {et~al.}(2009)\citenamefont
+  {Yüksek}, \citenamefont {Elmali}, \citenamefont {Karabulut},\ and\
+  \citenamefont {Mamedov}}]{yuksek_switching_2009}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {Yüksek}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Elmali}},
   \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Karabulut}},\ and\
   \bibinfo {author} {\bibfnamefont {G.~M.}\ \bibnamefont {Mamedov}},\
-  }\bibfield  {title} {\bibinfo {title} {Switching from negative to positive
-  nonlinear absorption in p type 0.5at\% sn doped {GaSe} semiconductor
-  crystal},\ }\href {https://doi.org/10.1016/j.optmat.2009.04.003} {\ \textbf
-  {\bibinfo {volume} {31}},\ \bibinfo {pages} {1663}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Rangel-Rojo}\ \emph {et~al.}()\citenamefont
+  }\bibfield  {title} {{\selectlanguage {en}\bibinfo {title} {Switching from
+  negative to positive nonlinear absorption in p type 0.5at\% {Sn} doped {GaSe}
+  semiconductor crystal}},\ }\href
+  {https://doi.org/10.1016/j.optmat.2009.04.003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Optical Materials}\ }\textbf {\bibinfo {volume} {31}},\
+  \bibinfo {pages} {1663} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rangel-Rojo}\ \emph {et~al.}(1998)\citenamefont
   {Rangel-Rojo}, \citenamefont {Yamada}, \citenamefont {Matsuda}, \citenamefont
   {Kasai}, \citenamefont {Nakanishi}, \citenamefont {Kar},\ and\ \citenamefont
   {Wherrett}}]{rangel-rojo_spectrally_1998}%
@@ -82,11 +86,13 @@
   {\bibfnamefont {H.}~\bibnamefont {Nakanishi}}, \bibinfo {author}
   {\bibfnamefont {A.~K.}\ \bibnamefont {Kar}},\ and\ \bibinfo {author}
   {\bibfnamefont {B.~S.}\ \bibnamefont {Wherrett}},\ }\bibfield  {title}
-  {\bibinfo {title} {Spectrally resolved third-order nonlinearities in
-  polydiacetylene microcrystals: influence of particle size},\ }\href
-  {https://doi.org/10.1364/JOSAB.15.002937} {\ \textbf {\bibinfo {volume}
-  {15}},\ \bibinfo {pages} {2937}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nguyen}\ \emph {et~al.}()\citenamefont {Nguyen},
+  {{\selectlanguage {en}\bibinfo {title} {Spectrally resolved third-order
+  nonlinearities in polydiacetylene microcrystals: influence of particle
+  size}},\ }\href {https://doi.org/10.1364/JOSAB.15.002937} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of the Optical Society of America B}\
+  }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {2937} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nguyen}\ \emph {et~al.}(2014)\citenamefont {Nguyen},
   \citenamefont {Hong}, \citenamefont {Thi},\ and\ \citenamefont
   {Le}}]{nguyen_numerical_2014}%
   \BibitemOpen
@@ -94,10 +100,13 @@
   {Nguyen}}, \bibinfo {author} {\bibfnamefont {N.~T.}\ \bibnamefont {Hong}},
   \bibinfo {author} {\bibfnamefont {C.~T.~B.}\ \bibnamefont {Thi}},\ and\
   \bibinfo {author} {\bibfnamefont {A.~Q.}\ \bibnamefont {Le}},\ }\bibfield
-  {title} {\bibinfo {title} {The numerical methods for analyzing the z-scan
-  data},\ }\href {https://doi.org/10.1142/S0218863514500209} {\ \textbf
-  {\bibinfo {volume} {23}},\ \bibinfo {pages} {1450020}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Ortega}\ \emph {et~al.}()\citenamefont {Ortega},
+  {title} {{\selectlanguage {en}\bibinfo {title} {The numerical methods for
+  analyzing the {Z}-scan data}},\ }\href
+  {https://doi.org/10.1142/S0218863514500209} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Nonlinear Optical Physics \& Materials}\ }\textbf
+  {\bibinfo {volume} {23}},\ \bibinfo {pages} {1450020} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ortega}\ \emph {et~al.}(2014)\citenamefont {Ortega},
   \citenamefont {Carrasco}, \citenamefont {Otero}, \citenamefont {Lara},
   \citenamefont {Ramírez},\ and\ \citenamefont
   {Castillo}}]{ortega_analytical_2014}%
@@ -108,11 +117,12 @@
   {Otero}}, \bibinfo {author} {\bibfnamefont {E.~R.}\ \bibnamefont {Lara}},
   \bibinfo {author} {\bibfnamefont {E.~V.~G.}\ \bibnamefont {Ramírez}},\ and\
   \bibinfo {author} {\bibfnamefont {M.~D.~I.}\ \bibnamefont {Castillo}},\
-  }\bibfield  {title} {\bibinfo {title} {Analytical expressions for z-scan with
-  arbitrary phase change in thin nonlocal nonlinear media},\ }\href
-  {https://doi.org/10.1364/OE.22.027932} {\ \textbf {\bibinfo {volume} {22}},\
-  \bibinfo {pages} {27932}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Sheik-Bahae}\ \emph {et~al.}()\citenamefont
+  }\bibfield  {title} {{\selectlanguage {en}\bibinfo {title} {Analytical
+  expressions for z-scan with arbitrary phase change in thin nonlocal nonlinear
+  media}},\ }\href {https://doi.org/10.1364/OE.22.027932} {\bibfield  {journal}
+  {\bibinfo  {journal} {Optics Express}\ }\textbf {\bibinfo {volume} {22}},\
+  \bibinfo {pages} {27932} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sheik-Bahae}\ \emph {et~al.}(1990)\citenamefont
   {Sheik-Bahae}, \citenamefont {Said}, \citenamefont {Wei}, \citenamefont
   {Hagan},\ and\ \citenamefont {Van~Stryland}}]{sheik-bahae_sensitive_1990}%
   \BibitemOpen
@@ -122,7 +132,38 @@
   {author} {\bibfnamefont {D.}~\bibnamefont {Hagan}},\ and\ \bibinfo {author}
   {\bibfnamefont {E.}~\bibnamefont {Van~Stryland}},\ }\bibfield  {title}
   {\bibinfo {title} {Sensitive measurement of optical nonlinearities using a
-  single beam},\ }\href {https://doi.org/10.1109/3.53394} {\ \textbf {\bibinfo
-  {volume} {26}},\ \bibinfo {pages} {760}},\ \bibinfo {note} {conference Name:
-  {IEEE} Journal of Quantum Electronics}\BibitemShut {NoStop}%
+  single beam},\ }\href {https://doi.org/10.1109/3.53394} {\bibfield  {journal}
+  {\bibinfo  {journal} {IEEE Journal of Quantum Electronics}\ }\textbf
+  {\bibinfo {volume} {26}},\ \bibinfo {pages} {760} (\bibinfo {year} {1990})},\
+  \bibinfo {note} {conference Name: IEEE Journal of Quantum
+  Electronics}\BibitemShut {NoStop}%
+\bibitem [{noa()}]{noauthor_beam_nodate}%
+  \BibitemOpen
+  \href {https://opg.optica.org/josab/fulltext.cfm?uri=josab-1-5-729&id=3052}
+  {\bibinfo {title} {Beam propagation and optical power limiting with nonlinear
+  media}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hermann}(1984)}]{hermann_beam_1984}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Hermann}},\ }\bibfield  {title} {{\selectlanguage {en}\bibinfo {title} {Beam
+  propagation and optical power limiting with nonlinear media}},\ }\href
+  {https://doi.org/10.1364/JOSAB.1.000729} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of the Optical Society of America B}\ }\textbf {\bibinfo
+  {volume} {1}},\ \bibinfo {pages} {729} (\bibinfo {year} {1984})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ramirez}\ \emph {et~al.}(2010)\citenamefont
+  {Ramirez}, \citenamefont {Carrasco}, \citenamefont {Otero}, \citenamefont
+  {Cerda},\ and\ \citenamefont {Castillo}}]{ramirez_far_2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~V.~G.}\
+  \bibnamefont {Ramirez}}, \bibinfo {author} {\bibfnamefont {M.~L.~A.}\
+  \bibnamefont {Carrasco}}, \bibinfo {author} {\bibfnamefont {M.~M.~M.}\
+  \bibnamefont {Otero}}, \bibinfo {author} {\bibfnamefont {S.~C.}\ \bibnamefont
+  {Cerda}},\ and\ \bibinfo {author} {\bibfnamefont {M.~D.~I.}\ \bibnamefont
+  {Castillo}},\ }\bibfield  {title} {{\selectlanguage {en}\bibinfo {title} {Far
+  field intensity distributions due to spatial self phase modulation of a
+  {Gaussian} beam by a thin nonlocal nonlinear media}},\ }\href
+  {https://doi.org/10.1364/OE.18.022067} {\bibfield  {journal} {\bibinfo
+  {journal} {Optics Express}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo
+  {pages} {22067} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \end{thebibliography}%
