@@ -43,6 +43,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{siunitx}
+\usepackage{gensymb}
 \sisetup{separate-uncertainty=true}
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
@@ -105,7 +106,11 @@
              %  but any date may be explicitly specified
 
 \begin{abstract}
-\lipsum[1-1]
+In this experiment, we have explored a simple method to measure non-linear properties of different
+optical materials - Single Beam Zscan. The experiments were performed with a $ \mathrm{TEM}_{00} $ Gaussian laser
+with a wavelength of 532 nm. We have analyzed the data using Python and calculated the non-Linear
+Refractive Index  and the non-Linear absorption  coefficient for diffrent samples. We have
+also examined certain improvements to our setup that could give better results.
 %\begin{description}
 %\item[Usage]
 %econdary publications and information retrieval purposes.
@@ -624,7 +629,7 @@
 		\item This may be due to high absorption coefficient
 		for the sample so that the refractive index changes
 		very rapidly due to significant thermal variation along
-		the length of the sample.
+		\item We performed the experiment for the same sample and verified that the refractive index and absorption coefficient were within the margin of error. The discrepancies could be explained by the relative instability of the cuvette when performing the experiment with solution.
 	\end{enumerate}
 	
 	
@@ -641,7 +646,25 @@
 		type of thing.
 	\end{enumerate}
 
-
+\section{Precautions and sources of error}
+	\begin{enumerate}
+		\item The polariser should be used to reduce the power of the laser in order
+		to reduce the thermal effects of laser on the samples.
+		\item Protective glasses must be worn while taking measurements and the
+		laser beam shouldn’t allowed to fall outside here and there by carefully
+		blocking it with black aluminium plate.
+		\item The lasers should be turned off when not in use.
+		\item Make sure that the temperature is below $ 23 \degree $ C
+		while turning on the Laser. Else, switch it off.
+		\item Make sure you keep the Laser at low power($ \sim 40 \% $) while doing alignment.
+		\item Make sure to align each optical component correctly by avoiding back reflections.
+		\item Make sure that the power on the main arm of the
+		setup is small so as the sample does not overheat
+		and lose its properties.
+	\end{enumerate}
+	
+	
+	
 \appendix
 \section{Pulsed lasers}\label{pulsed}
 	In this laser, we used a pulsed laser which refers to any laser not classified as continuous wave, so that the optical power appears in pulses of some duration at some repetition rate.
