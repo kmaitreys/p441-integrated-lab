@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  26 NOV 2022 01:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  28 NOV 2022 05:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,6 +295,33 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 (/app/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
+(/app/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count297
+\@cmidlb=\count298
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count299
+\@lastruleclass=\count300
+\@thisrulewidth=\dimen174
+)
+(/app/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip56
+\multirow@cntb=\count301
+\multirow@dima=\skip57
+\bigstrutjot=\dimen175
+)
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             this release.
@@ -319,8 +346,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (/app/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
 )
 (/app/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
@@ -360,9 +387,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/app/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen164
-\Hy@linkcounter=\count297
-\Hy@pagecounter=\count298
+\@linkdim=\dimen178
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
 
 (/app/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
@@ -375,7 +402,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/app/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count299
+\Hy@SavedSpaceFactor=\count304
 
 (/app/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
@@ -390,9 +417,9 @@ Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
 LaTeX Info: Redefining \href on input line 4660.
-\c@Hy@tempcnt=\count300
+\c@Hy@tempcnt=\count305
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen165
+\XeTeXLinkMargin=\dimen179
 
 (/app/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -401,9 +428,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count301
-\Field@Width=\dimen166
-\Fld@charsize=\dimen167
+\Fld@menulength=\count306
+\Field@Width=\dimen180
+\Fld@charsize=\dimen181
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -418,9 +445,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count302
-\c@Item=\count303
-\c@Hfootnote=\count304
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -432,8 +459,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count305
-\c@bookmark@seq@number=\count306
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
 (/app/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -444,7 +471,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip58
 )
 (/app/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
@@ -463,35 +490,69 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+Package hyperref Info: Option `colorlinks' set `true' on input line 60.
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 70.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 70.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 70.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 70.
+lass! (Proceeding with fingers crossed.) on input line 72.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 72.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 72.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 72.
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 70.
- (./apssamp.aux)
+h' as default language. on input line 72.
+ (./apssamp.aux
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+)
 \openout1 = `apssamp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -502,31 +563,31 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 70.
-LaTeX Info: Redefining \celsius on input line 70.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 70.
+or `english'. on input line 72.
+LaTeX Info: Redefining \celsius on input line 72.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 72.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 70.
-Package gensymb Info: Using \Omega for \ohm on input line 70.
+LaTeX Info: Redefining \ohm on input line 72.
+Package gensymb Info: Using \Omega for \ohm on input line 72.
 
 Package gensymb Warning: Not defining \micro.
 
 (/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen168
+\scratchcounter=\count312
+\scratchdimen=\dimen182
 \scratchbox=\box77
-\nofMPsegments=\count308
-\nofMParguments=\count309
+\nofMPsegments=\count313
+\nofMParguments=\count314
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen169
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen183
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
 \everyMPtoPDFconversion=\toks27
 ) (/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -537,7 +598,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 72.
 
 (/app/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -548,62 +609,635 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/app/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count313
+\c@section@level=\count318
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 
 (./apssamp.out) (./apssamp.out)
 \@outlinefile=\write4
 \openout4 = `apssamp.out'.
 
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 70.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 72.
 \openout3 = `apssampNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 111
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
 .
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 111
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
 .
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1881) in paragraph at lines 141--142
+<colladon.jpeg, id=98, 344.78813pt x 554.82281pt>
+File: colladon.jpeg Graphic file (type jpg)
+<use colladon.jpeg>
+Package pdftex.def Info: colladon.jpeg  used on input line 135.
+(pdftex.def)             Requested size: 224.10962pt x 360.63055pt.
+
+Underfull \hbox (badness 1881) in paragraph at lines 146--147
 []\OT1/cmr/m/n/10 There are sev-eral ma-jor ob-jec-tives that will be
  []
 
-[1{/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] (./apssamp.bbl
-[2]) [3] (./apssamp.aux)
+[1{/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./colladon.jpeg
+>]
+<mountedLaser.png, id=120, 782.925pt x 782.925pt>
+File: mountedLaser.png Graphic file (type png)
+<use mountedLaser.png>
+Package pdftex.def Info: mountedLaser.png  used on input line 160.
+(pdftex.def)             Requested size: 232.47029pt x 232.47029pt.
+<setup.png, id=122, 362.85562pt x 103.88812pt>
+File: setup.png Graphic file (type png)
+<use setup.png>
+Package pdftex.def Info: setup.png  used on input line 168.
+(pdftex.def)             Requested size: 235.85336pt x 67.52647pt.
+<zfold.png, id=128, 227.04825pt x 112.62074pt>
+File: zfold.png Graphic file (type png)
+<use zfold.png>
+Package pdftex.def Info: zfold.png  used on input line 186.
+(pdftex.def)             Requested size: 227.04768pt x 112.62045pt.
+<kineticMirror.png, id=129, 602.25pt x 602.25pt>
+File: kineticMirror.png Graphic file (type png)
+<use kineticMirror.png>
+Package pdftex.def Info: kineticMirror.png  used on input line 193.
+(pdftex.def)             Requested size: 178.26736pt x 178.26736pt.
+ [2 <./mountedLaser.png> <./setup.png> <./zfold.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 221.
+
+<cleave.png, id=142, 261.97874pt x 120.45pt>
+File: cleave.png Graphic file (type png)
+<use cleave.png>
+Package pdftex.def Info: cleave.png  used on input line 224.
+(pdftex.def)             Requested size: 170.28416pt x 78.29155pt.
+<MO.png, id=143, 178.41656pt x 75.28125pt>
+File: MO.png Graphic file (type png)
+<use MO.png>
+Package pdftex.def Info: MO.png  used on input line 232.
+(pdftex.def)             Requested size: 115.96938pt x 48.93222pt.
+<coupling.png, id=144, 432.86719pt x 84.315pt>
+File: coupling.png Graphic file (type png)
+<use coupling.png>
+Package pdftex.def Info: coupling.png  used on input line 240.
+(pdftex.def)             Requested size: 238.07768pt x 46.37338pt.
+<na.png, id=146, 328.97906pt x 117.43875pt>
+File: na.png Graphic file (type png)
+<use na.png>
+Package pdftex.def Info: na.png  used on input line 269.
+(pdftex.def)             Requested size: 197.38895pt x 70.46378pt.
+<mm-NA.png, id=147, 384.6872pt x 145.29282pt>
+File: mm-NA.png Graphic file (type png)
+<use mm-NA.png>
+Package pdftex.def Info: mm-NA.png  used on input line 279.
+(pdftex.def)             Requested size: 192.34312pt x 72.64622pt.
+[3 <./kineticMirror.png> <./cleave.png> <./MO.png> <./coupling.png> <./na.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 291.
+
+<singlemodeNA.png, id=173, 416.21498pt x 311.9655pt>
+File: singlemodeNA.png Graphic file (type png)
+<use singlemodeNA.png>
+Package pdftex.def Info: singlemodeNA.png  used on input line 298.
+(pdftex.def)             Requested size: 233.0788pt x 174.69948pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 304.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 344.
+
+
+Overfull \hbox (1.3004pt too wide) in paragraph at lines 348--358
+ []$[]$ 
+ []
+
+<mfd.png, id=176, 219.06844pt x 125.71968pt>
+File: mfd.png Graphic file (type png)
+<use mfd.png>
+Package pdftex.def Info: mfd.png  used on input line 362.
+(pdftex.def)             Requested size: 153.34685pt x 88.00316pt.
+[4 <./mm-NA.png> <./singlemodeNA.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 376.
+
+<mbschematic.png, id=197, 368.1253pt x 167.87718pt>
+File: mbschematic.png Graphic file (type png)
+<use mbschematic.png>
+Package pdftex.def Info: mbschematic.png  used on input line 407.
+(pdftex.def)             Requested size: 220.87688pt x 100.72708pt.
+<geometry.png, id=198, 146.04562pt x 142.28156pt>
+File: geometry.png Graphic file (type png)
+<use geometry.png>
+Package pdftex.def Info: geometry.png  used on input line 414.
+(pdftex.def)             Requested size: 102.23122pt x 99.5964pt.
+
+Underfull \hbox (badness 1824) in paragraph at lines 397--419
+[]\OT1/cmr/m/n/10 In this ex-per-i-ment, we study in-ten-sity vari-a-tion
+ []
+
+[5 <./mfd.png> <./mbschematic.png> <./geometry.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 454.
+
+<microbending.png, id=221, 418.2024pt x 311.9655pt>
+File: microbending.png Graphic file (type png)
+<use microbending.png>
+Package pdftex.def Info: microbending.png  used on input line 472.
+(pdftex.def)             Requested size: 234.19174pt x 174.69948pt.
+
+Overfull \hbox (18.3215pt too wide) detected at line 496
+[][]\OML/cmm/m/it/10  \OMS/cmsy/m/n/10 ^^Y \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :
+\OT1/cmr/m/n/10 34[][][][][][][][][] [] [] \OMS/cmsy/m/n/10 ^^@ [][][][]
+ []
+
+[6 <./microbending.png>]
+<bend1.png, id=239, 249.93375pt x 137.01187pt>
+File: bend1.png Graphic file (type png)
+<use bend1.png>
+Package pdftex.def Info: bend1.png  used on input line 535.
+(pdftex.def)             Requested size: 162.455pt x 89.05666pt.
+<bend2.png, id=240, 222.8325pt x 186.6975pt>
+File: bend2.png Graphic file (type png)
+<use bend2.png>
+Package pdftex.def Info: bend2.png  used on input line 542.
+(pdftex.def)             Requested size: 144.8394pt x 121.35193pt.
+<bend3.png, id=241, 383.18156pt x 133.24782pt>
+File: bend3.png Graphic file (type png)
+<use bend3.png>
+Package pdftex.def Info: bend3.png  used on input line 548.
+(pdftex.def)             Requested size: 249.06505pt x 86.61005pt.
+
+Overfull \hbox (3.06505pt too wide) in paragraph at lines 548--549
+ [][] 
+ []
+
+<bendloss.png, id=242, 414.348pt x 315.75967pt>
+File: bendloss.png Graphic file (type png)
+<use bendloss.png>
+Package pdftex.def Info: bendloss.png  used on input line 553.
+(pdftex.def)             Requested size: 232.0333pt x 176.82419pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 559.
+
+
+Overfull \hbox (16.77298pt too wide) in paragraph at lines 563--580
+ []$[]$ 
+ []
+
+[7 <./bend1.png> <./bend2.png> <./bend3.png> <./bendloss.png>] (./apssamp.bbl
+! Undefined control sequence.
+l.58   {Davies}},\ }\href@noop
+                               {} {\emph {\bibinfo {title} {Quantum Fields i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64   {Feynman}},\ }\href@noop
+                                {} {\bibfield  {journal} {\bibinfo  {journal}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.73 ...binfo {collaboration} {EPR}),\ }\href@noop
+                                                   {} {\bibfield
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.83   nonlinear modes},\ }\href@noop
+                                      {} {\bibfield  {journal} {\bibinfo  {j...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.92   waveguides},\ }\href@noop
+                                 {} {\bibfield  {journal} {\bibinfo  {journa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98   {Witten}},\ }\href@noop
+                               {} {} (\bibinfo {year} {2001}),\ \Eprint
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ...p {} {} (\bibinfo {year} {2001}),\ \Eprint
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104   {Beutler}},\ }in\ \href@noop
+                                     {} {\emph {\bibinfo {booktitle} {Williams
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.116   {Beutler}},\ }in\ \href@noop
+                                     {} {\emph {\bibinfo {booktitle} {Williams
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.128   {Knuth}},\ }in\ \href@noop
+                                   {} {\emph {\bibinfo {booktitle} {Fundamental
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.140   {Johnson}},\ }\href@noop
+                                 {} {\bibfield  {journal} {\bibinfo  {journal}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.182   {Smith}},\ }\href@noop
+                               {} {}\bibinfo {howpublished} {personal commun...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.187   \href@noop
+                   {} {\emph {\bibinfo {title} {AIP Conf. Proc.}}},\ Vol.\ \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.193 ...amefont {Yannakakis}},\ eds.,\ \href@noop
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.208   \href@noop
+                   {} {\emph {\bibinfo {title} {{Proceedings of the 2003 Par...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.218 ...erence, Madison, WI, 1999}},\ }\href@noop
+                                                   {} {\bibfield
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.226   friends},\ }\href@noop
+                               {} {\bibfield  {journal} {\bibinfo  {journal}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.232   {Smith}},\ }\href@noop
+                               {} {\bibfield  {journal} {\bibinfo  {journal}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.239   {T{\'{e}}rrific}},\ }\href@noop
+                                        {} {\emph {\bibinfo {title} {An {$O(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.248   {Nelson}},\ }\href@noop
+                                {} {}\bibinfo {type} {{TWI Report}}\ \bibinfo
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.254   {Fields}},\ }\href@noop
+                                {} {}\bibinfo {type} {{ECE Report No.}}\ \bi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.260   {Zalkins}},\ }\href@noop
+                                 {} {}\bibinfo {howpublished} {e-print
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.265   {Nelson}},\ }\href@noop
+                                {} {}\bibinfo {howpublished} {{U.S. Patent No.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.270   {Nelson}},\ }\href@noop
+                                {} {\bibinfo {type} {M.{S}. thesis}},\ \bibinfo
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.277   \href@noop
+                   {} {\bibinfo {type} {Master's project}},\ \bibinfo  {school}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.284   {Smith}},\ }\href@noop
+                               {} {\bibinfo {type} {{Ph.D.} thesis}},\ \bibinfo
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.291   }\href@noop
+                    {} {\bibfield  {journal} {\bibinfo  {journal} {J. Geophy...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.298   Festooning {F}rench Phrases}},\ \href@noop
+                                                   {} {\bibinfo {type} {{PhD}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.305   {Knuth}},\ }\href@noop
+                               {} {\emph {\bibinfo {title} {Seminumerical
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.314   {Knvth}},\ }\href@noop
+                               {} {\bibinfo {title} {The programming of comp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.326   \bibinfo {year} {2000})\ \Eprint
+                                         {https://arxiv.org/abs/cond-mat/000...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.334 ...sics to quantum fluids},\ }in\ \href@noop
+                                                   {}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.339 ...apore},\ \bibinfo {year} {2000})\ \Eprint
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.348   metals},\ in\ \href@noop
+                                 {} {\emph {\bibinfo {booktitle} {Magnetism}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.360   theory of normal metals},\ }in\ \href@noop
+                                                   {} {\emph {\bibinfo {book...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.372   theory of normal metals},\ }in\ \href@noop
+                                                   {} {\emph {\bibinfo {book...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.390   nonlinear media},\ }\href@noop
+                                       {} {\bibfield  {journal} {\bibinfo  {...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.397   {Smith}},\ }in\ \href@noop
+                                   {} {\emph {\bibinfo {booktitle} {Molecular
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.405   recurrences},\ }in\ \href@noop
+                                       {} {\emph {\bibinfo {booktitle} {High...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.423   {VLSI} circuits},\ }in\ \href@noop
+                                           {} {\emph {\bibinfo {booktitle} {...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.435   {Manmaker}},\ }\href@noop
+                                  {} {\emph {\bibinfo {title} {The Definitive
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Underfull \hbox (badness 3058) in paragraph at lines 54--640
+[]\OT1/cmr/m/n/10 Bire82  (, )feyn54 ,  ()epr ,  ()Berman1983
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--640
+\OT1/cmr/m/n/10 ,  ()Davies1998 ,  ()wit-ten2001  (),
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 54--640
+\OT1/cmr/m/n/10 https://arxiv.org/abs/hep-th/0106109 hep-th/0106109
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 54--640
+\OT1/cmr/m/n/10 Beut-ler1994in  , Vol. ,  (, , ) Chap. , pp. ,
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 54--640
+\OT1/cmr/m/n/10 ,  ()Smith2010 (), Smith2010a (), unpublished-full
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 54--640
+\OT1/cmr/m/n/10 (), John-son-Miller-Smith2007  ()Smith2007, ed.,  ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--640
+\OT1/cmr/m/n/10 , ) https://arxiv.org/abs/cond-mat/0008070 cond-
+ []
+
+[8] (./apssamp.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `apssamp.out' has not changed.
-(rerunfilecheck)             Checksum: FC7B288A7F6D9E85F38DC21A6CFB085E;2885.
+(rerunfilecheck)             Checksum: 5095762D8F79DD6D4CBAC98CADA61010;3797.
  ) 
 Here is how much of TeX's memory you used:
- 17619 strings out of 478268
- 325049 string characters out of 5847839
- 700336 words of memory out of 5000000
- 35543 multiletter control sequences out of 15000+600000
- 482426 words of font info for 76 fonts, out of 8000000 for 9000
+ 17878 strings out of 478268
+ 328666 string characters out of 5847839
+ 697969 words of memory out of 5000000
+ 35763 multiletter control sequences out of 15000+600000
+ 483798 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,77p,479b,1022s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></app/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></app/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></app/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb></app/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti9.pfb>
-Output written on apssamp.pdf (3 pages, 167014 bytes).
+ 71i,15n,77p,789b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/app/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx9.pfb></app/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbxti10.pfb></app/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></a
+pp/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi9.pfb></app/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></ap
+p/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></app/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></app/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></ap
+p/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></app/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></app/texlive/texmf-dist/font
+s/type1/public/cm-super/sfrm1000.pfb>
+Output written on apssamp.pdf (8 pages, 3433969 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 79 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 
